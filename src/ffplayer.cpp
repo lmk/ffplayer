@@ -4,6 +4,7 @@
 #include "ffrender.h"
 #include "ffplayer.h"
 #include "recorder.h"
+#include <cmath>
 
 extern "C" {
 #include "libavutil/time.h"

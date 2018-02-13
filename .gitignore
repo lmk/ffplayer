@@ -7,4 +7,15 @@ obj/
 *.ncb
 *.user
 *.suo
-
+player-android/ffmpeg-android/lib/*
+player-win32/Backup
+player-win32/UpgradeLog.htm
+player-win32/ffplayer/ffplayer.vcxproj
+player-win32/ffplayer/ffplayer.vcxproj.filters
+player-win32/ffspliter/ffspliter.vcxproj
+player-win32/ffspliter/ffspliter.vcxproj.filters
+player-win32/ipch/
+player-win32/testplayer/testplayer.vcxproj
+player-win32/testplayer/testplayer.vcxproj.filters
+player-win32/ffplayer.VC.db
+player-win32/ffplayer.VC.VC.opendb
