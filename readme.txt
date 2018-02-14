@@ -11,6 +11,8 @@ The ffmpeg share library (dlls, libs & headers) are customized and built by myse
 
 The windows version becomes stable, and the android version is coming. The android verion ffplayer is working now, but lots of work need to be done, to make it better.
 
+convert visual studio 2015(vc14)
+
 
 features
 ========

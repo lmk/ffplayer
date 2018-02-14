@@ -215,6 +215,8 @@ struct _pthread_cleanup
     (*pthread_getclean() = _pthread_cup.next, (E?_pthread_cup.func((pthread_once_t *)_pthread_cup.arg):0));}
 
 /* Windows doesn't have this, so declare it ourselves. */
+#if !defined(HAVE_STRUCT_TIMESPEC)
+#define HAVE_STRUCT_TIMESPEC
 #ifndef _TIMESPEC_DEFINED
 #define _TIMESPEC_DEFINED
 struct timespec {
@@ -227,6 +229,7 @@ struct itimerspec {
   struct timespec  it_value;     /* Timer expiration */
 };
 #endif
+#endif /* HAVE_STRUCT_TIMESPEC */
 
 #ifndef SCHED_OTHER
 /* Some POSIX realtime extensions, mostly stubbed */
